@@ -1,0 +1,8 @@
+<div id="koordinatlar"></div>
+
+<script>
+document.addEventListener('mousemove', (event) => {
+    const koordinatlar = `X: ${event.clientX}, Y: ${event.clientY}`;
+    document.getElementById('koordinatlar').innerText = koordinatlar;
+});
+</script>
